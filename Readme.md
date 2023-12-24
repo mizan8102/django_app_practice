@@ -15,26 +15,34 @@ It's a simple application . This project only for learning stage . Here, I use d
     ```bash
     cd django_app_practice
     ```
+3. Create a virtual environment :
 
-3. Create a virtual environment and install dependencies using Poetry:
+    ```bash
+    python -m venv venv
+    ```
+4. Navigate to virtual environemnt
+    ```bash
+    source ./venv/bin/activate
+    ```
+5. Create a virtual environment and install dependencies using Poetry:
 
     ```bash
     poetry install
     ```
 
-4. Active Virtual Environment
+6. Active Virtual Environment
 
     ```bash
     source ./venv/bin/active
     ```
 
-5. Apply Django migrations:
+7. Apply Django migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-6. Run the development server:
+8. Run the development server:
 
     ```bash
     python manage.py runserver
